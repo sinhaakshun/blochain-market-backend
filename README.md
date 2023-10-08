@@ -4,7 +4,8 @@ This README would normally document whatever steps are necessary to get your app
 
 ### How do I get set up? ###
 
-* Make sure to have MongoDB installed
+* First run npm i to install all the dependencies needed
+* Make sure to have MongoDB compass or any tool installed
 * Make a local connection to MongoDB
 * Paste your connection url in the .env file
 * Run the command node server.js and the server should be up and runnig with the db being connected
