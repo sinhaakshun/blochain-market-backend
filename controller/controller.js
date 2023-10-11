@@ -56,9 +56,9 @@ exports.filter = async(req, res) => {
       
         try {
           const orders = await Order.find(filters);
-          res.status(200).json(orders);
+          res.json(orders);
         } catch (error) {
-          res.status(500).json({ error: error.message });
+          res.json({ error: error.message });
         }
     } catch(err){
         res.json({ error: 'Error sending' });
